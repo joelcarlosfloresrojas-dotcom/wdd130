@@ -1,3 +1,8 @@
+root {
+
+    --padding-c: 10px --rem-x:1rem --borders-g:1px
+}
+
 main {
     max-width: 840px;
 }
@@ -8,19 +13,19 @@ h1 {
 
 nav a {
     color: white;
-    padding: 10px;
+    padding: var(--padding-c);
     display: block;
 }
 
 nav {
     background-color: rgb(0, 157, 255);
-    padding: 10px;
+    padding: var(--padding-c);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: var(--borders-g) solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -31,9 +36,9 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px rgba(0 0 0/0.2);
-    padding: 1rem;
+    margin: var(--rem-x);
+    border: var(--borders-g) rgba(0 0 0/0.2);
+    padding: var(--rem-x);
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -47,6 +52,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--borders-g) solid #000;
     text-align: center;
 }
