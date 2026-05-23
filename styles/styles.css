@@ -1,10 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 root {
 
     --padding-c: 10px --rem-x:1rem --borders-g:1px
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
+
 }
 
 h1 {
@@ -28,6 +35,7 @@ main img {
     border: var(--borders-g) solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -44,6 +52,12 @@ aside {
     text-align: center;
 }
 
+aside h2 {
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+
 aside img {
     width: 200px;
     height: auto;
@@ -54,4 +68,15 @@ footer {
     margin-top: 15px;
     border-top: var(--borders-g) solid #000;
     text-align: center;
+}
+
+/*Class Selectors*/
+
+.box {
+
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: gray;
+    border: 1px solid rgb(0 0 0/10%);
+    color: #000;
 }
