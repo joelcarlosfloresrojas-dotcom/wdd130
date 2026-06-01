@@ -19,7 +19,7 @@ header {
     color: var(--accent2-color);
     margin-bottom: 5px;
     margin-top: 5px;
-    padding: 10px 20px;
+    padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -134,25 +134,12 @@ h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #0f65ed;
-}
-
-header {
-    padding: 0px;
+    color: #3a82f7;
 }
 
 header img {
     width: 150px;
     padding: 20px;
-}
-
-.socialmedia {
-    display: flex;
-}
-
-.socialmedia img {
-    max-width: 100px;
-    padding: 1px;
 }
 
 section img {
@@ -212,6 +199,8 @@ footer p {
 
 .socialmedia img {
     width: 24px;
+    max-width: 100px;
+    padding: 1px;
     height: auto;
     display: block;
 }
