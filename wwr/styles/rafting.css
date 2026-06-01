@@ -14,7 +14,7 @@
 }
 
 header {
-    border: 1px solid black;
+    border: 1px solid #000000;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     margin-bottom: 5px;
@@ -41,15 +41,15 @@ g body {
 }
 
 .navigation li {
-    min-width: none;
+
     flex: 1;
 }
 
 .navigation a {
     display: block;
-    border: 1px solid black;
-    background-color: aqua;
-    color: navy;
+    border: 1px solid #000000;
+    background-color: #00ffff;
+    color: #000080;
     padding: 7px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -58,7 +58,7 @@ g body {
 }
 
 .navigation a:hover {
-    color: rgb(31, 18, 177);
+    color: #1f12b1;
     text-decoration: underline;
 }
 
