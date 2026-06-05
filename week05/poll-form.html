@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form- User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="for-item column2">
+                    <label for=" fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="for-item column2">
+                    <label for="user's_email_address">Email</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+                <fieldset />
+
+
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="column1">
+                        <label for="quantity">What's your favorite Browser</label>
+                        <select name="Browser" id="Browser">
+                            <option value="1">Chrome</option>
+                            <option value="2">Edge</option>
+                            <option value="3">Fire Fox</option>
+                            <option value="4">Other</option>
+                        </select>
+                    </div>
+                    <div class="column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    <div class="column1">
+                        <label for="feedback">List the places you have lived:</label>
+                        <textarea id="feedback" name="feedback" rows="4"
+                          placeholder="Lima,Peru"></textarea>
+                        <button type="submit">Submit Poll</button>
+                    </div>
+                </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <h2>Joel Flores</h2>
+
+    </footer>
+
+</body>
+
+</html>
