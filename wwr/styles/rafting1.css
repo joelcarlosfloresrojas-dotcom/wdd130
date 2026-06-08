@@ -20,6 +20,13 @@ body {
     color: var(--accent1-color);
 }
 
+div iframe {
+    width=350 height=250 style="border:0;
+ allowfullscreen=""
+    loading="lazy"
+    referrerpolicy=no-referrer-when-downgrade
+}
+
 header,
 main,
 footer {
@@ -75,7 +82,7 @@ header img {
     text-align: center;
 }
 
-.flex1 h3 {
+.flex1 h1 {
     font-size: 28px;
     margin-bottom: 5px;
     font-family: var(--body-font);
