@@ -1,0 +1,240 @@
+:root {
+    --primary-color: #d2d0df;
+    --secondary-color: #ec720f;
+    --accent1-color: #000000;
+    --accent2-color: #122321;
+    --bg-light-gray: #f4f4f4;
+    --border-gray: #ababab;
+    --heading-font: "Rockwell", "Cambria", serif;
+    --body-font: "Verdana", "Geneva", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 10px auto;
+}
+
+header {
+    border: 1px solid var(--accent1-color);
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    width: 150px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navigation a {
+    display: block;
+    border: 1px solid #000000;
+    background-color: #00ffff;
+    color: #000080;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 110px;
+    text-align: center;
+}
+
+.navigation a:hover {
+    color: #1f12b1;
+    text-decoration: underline;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flex1 h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-family: var(--body-font);
+    font-weight: normal;
+}
+
+.contact-info {
+    font-size: 0.95rem;
+    margin: 2px 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+    align-items: start;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 380px;
+    background-color: #e0e0e0;
+}
+
+.flexer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.good1 {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+
+.good1 input {
+    padding: 6px;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+}
+
+.good2 {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: start;
+}
+
+.label-purpose {
+    font-size: 0.95rem;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.good3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.message-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.message-group textarea {
+    padding: 8px;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.bad1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #d0d0d0;
+}
+
+.backg {
+    border: 1px solid var(--accent1-color);
+    background-color: var(--bg-light-gray);
+    padding: 20px;
+    text-align: center;
+}
+
+.backg h2 {
+    color: var(--accent1-color);
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.division {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.division figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    padding: 0;
+}
+
+.division img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.division figcaption {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    font-size: 1.05rem;
+    font-weight: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid var(--border-gray);
+}
+
+footer p {
+    margin: 0;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+.socialmedia img {
+    width: 24px;
+    height: auto;
+}
