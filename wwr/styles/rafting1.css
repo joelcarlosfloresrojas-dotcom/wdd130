@@ -20,13 +20,6 @@ body {
     color: var(--accent1-color);
 }
 
-div iframe {
-    width=350 height=250 style="border:0;
- allowfullscreen=""
-    loading="lazy"
-    referrerpolicy=no-referrer-when-downgrade
-}
-
 header,
 main,
 footer {
