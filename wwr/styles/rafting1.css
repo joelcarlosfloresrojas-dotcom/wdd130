@@ -33,21 +33,21 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-content: center;
     padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+
 }
 
 header img {
     width: 150px;
 }
 
-nav {
-    margin-left: auto;
-}
-
 .navigation {
     display: flex;
     list-style: none;
-    gap: 10px;
+
 }
 
 .navigation a {
@@ -122,7 +122,8 @@ nav {
 .good2 {
     display: grid;
     grid-template-columns: 100px 1fr;
-    align-items: start;
+    align-items: center;
+
 }
 
 .label-purpose {
@@ -227,6 +228,7 @@ footer {
 
 footer p {
     margin: 0;
+    margin-left: 300px;
 }
 
 .socialmedia {
