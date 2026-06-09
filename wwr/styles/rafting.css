@@ -224,6 +224,7 @@ footer {
     align-items: center;
     padding: 15px 0;
     border-top: 1px solid var(--border-gray);
+    background-color: #6794a3;
 }
 
 footer p {
@@ -234,6 +235,7 @@ footer p {
 .socialmedia {
     display: flex;
     gap: 15px;
+    margin-right: 6px;
 }
 
 .socialmedia img {
