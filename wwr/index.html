@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home Page Rafting Compas</title>
-<meta name="description" content="his is the official Rafting-Compas home page made by Joel Flores,
-      with all that you need to get to know us, the Adventure Awaits You!">
-<meta name="author" content="Joel Flores">
-<link rel="stylesheet" href="styles/rafting.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Rafting Compas</title>
+    <meta name="description"
+      content="This is the official Rafting-Compas home page made by Joel Flores, with all that you need to get to know us, the Adventure Awaits You!">
+    <meta name="author" content="Joel Flores">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
 
 <body>
     <header>
@@ -25,17 +27,15 @@
     </header>
 
     <main>
-
         <div class="hero1">
             <img src="images/home2.jpg" alt="people rafting">
             <h1 class="indexa">It is Adventure Time </h1>
-
         </div>
 
         <form class="flexer1">
-            <img src="images/home1.jpg">
+            <img src="images/home1.jpg" alt="Sign up illustration">
             <article>
-                <label class="bigger">Sign Up!</label>
+                <h2 class="bigger">Sign Up!</h2>
                 <div class="fine1">
                     <label for="Name">Name</label>
                     <input type="text" id="Name" name="Name" placeholder="Your Name">
@@ -46,18 +46,17 @@
                     <input type="email" id="Email" name="Email" placeholder="0000@...">
                 </div>
                 <div class="fine1">
-                    <label for="Phonr">Phone number</label>
-                    <input type="email" id="Phone" name="Phone" placeholder="00000000">
+                    <label for="Phone">Phone number</label>
+                    <input type="tel" id="Phone" name="Phone" placeholder="00000000">
                 </div>
 
                 <div class="fine2">
                     <label for="Question4">How many people are you planning to go with?</label>
-                    <input type="int" id="Question4" name="Question4" placeholder="1,2,3,4..">
+                    <input type="number" id="Question4" name="Question4" placeholder="1,2,3,4..">
                     <button type="submit" class="looking_good">Submit Poll</button>
                 </div>
             </article>
         </form>
-
 
         <section class="grido">
             <img src="images/raftwww.jpg" alt="rafting history">
@@ -110,7 +109,6 @@
                 </tbody>
             </table>
 
-
             <p>
                 The river doesn’t ask if you’re ready; it just pulls you in. One second you are
                 holding your breath
@@ -140,12 +138,9 @@
             </div>
 
             <div class="container">
-                <a href="trips.html">
-                    <button class="looking_good">BOOK YOUR ADVENTURE NOW →</button>
-                </a>
+                <a href="trips.html" class="looking_good">BOOK YOUR ADVENTURE NOW →</a>
             </div>
-
-
+        </section>
     </main>
 
     <footer>
@@ -158,6 +153,5 @@
         </nav>
     </footer>
 </body>
-
 
 </html>
